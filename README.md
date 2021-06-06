@@ -52,13 +52,13 @@ myVar=10;
 var myNum;
 myNum=myVar;
 ```
-
+---
 ## Initializing the variable with the assignment operator
 
 ```javascript
 var myVar=0;
 ```
-
+---
 ## Understanding Uninitialized Variables
 
 ```javascript
@@ -73,6 +73,7 @@ a=a+1;
 b=b+5;
 c=c+' String!';
 ```
+---
 
 ## Understanding Case Sensitivity in Variables
 
@@ -90,12 +91,15 @@ studlyCapVar = 10;
 properCamelCase= "A String";
 titleCaseOver = 9000;
 ```
+--- 
+
 ## Add Two Numbers with JavaScript
 
 ```javascript
 var myVar=5+10;
 // myVar  now has the value 15
 ```
+---
 
 ## Increment a number with javascript
 ```javascript
@@ -104,18 +108,76 @@ myVar++
 
 //myVar value is incremented by 1 and now has the value 11. It's equivalent of myVar = myVar+1;
 ```
+---
 
 ## Decrement a number with javascript
 ```javascript
 var myVar=10;
 myVar--;
 //myVar value is decremented by 1 and now has the value 9. It's equivalent of myVar=myVar-1;
+```
+---
 
 ## Create a decimal with JavaScript
 ```javascript
 //We can store decimal numbers in variables too. Decimal numbers are sometimes referred to as floating point numbers or floats.
 myDecimal=5.7
 ```
+---
+## Compound assignment with augmented audition
+``` javascript
+var myVar=1;
+myVar+=5;
+```
+---
+## Compound assignment with augmented substration
+```javascript
+var myVar=10;
+myVar-=5;
+//It's equivalent to myVar=myVar-5;
+```
+---
+
+## Declare a string variable
+
+```javascript
+var myName="your name";
+```
+---
+## Escaping Literal quotes in strings
+
+```javascript
+var sampleStr="Novin said, \"Jd is learning Javascript\".";
+```
+---
+## Quoting strings with single quotes
+
+```javascript
+var myStr = "<a href='http://www.example.com' target='_blank'>Link</a>";
+```
+---
+## Escape sequence in strings
+
+code  | output
+
+\'    | single quote
+\"    | double quote
+\\    | blackslash
+\n    | newline
+\r    | carriage return
+\t    | tab
+\b    | word boundary
+\f    | form feed 
+```javascript
+var myStr='FirstLine\n\t\\SecondLine\nThirdLine'; // Change this line
+/*myStr:
+ FirstLine
+    \SecondLine
+ ThirdLine
+ */
+```
+
+
 
 
 
