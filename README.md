@@ -4,6 +4,12 @@
 
 - [Comment your javascript](#comment-your-javascript)
 - [Declare JavaScript Variables](#declare-javascript-variables)
+- [Storing values with the assignment operator](#storing-values-with-the-assignment-operator)
+- [Assigning the value of one variable to another](#assigning-the-value-of-one-variable-to-another)
+- [Initializing the variable with the assignment operator](#initializing-the-variable-with-the-assignment-operator)
+
+
+
 
 
 ## Comment your javascript
@@ -29,3 +35,25 @@ In JavaScript we end statements with semicolons. Variable names can be made up o
 
 ---
 
+## Storing values with the assignment operator
+
+In JavaScript, you can store a value in a variable with the assignment operator (=)
+```javascript
+var myVar;
+myVar=10;
+```
+ 
+## Assigning the value of one variable to another variable
+
+```javascript
+var myVar;
+myVar=10;
+var myNum;
+myNum=myVar;
+```
+
+## Initializing the variable with the assignment operator
+
+```javascript
+var myVar=0;
+```
