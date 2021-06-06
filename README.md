@@ -158,16 +158,16 @@ var myStr = "<a href='http://www.example.com' target='_blank'>Link</a>";
 ---
 ## Escape sequence in strings
 
-code  | output
-
-\'    | single quote
-\"    | double quote
-\\    | blackslash
-\n    | newline
-\r    | carriage return
-\t    | tab
-\b    | word boundary
-\f    | form feed 
+|code   | output         |
+|-------|----------------|
+| \'    | single quote   |
+| \"    | double quote   |
+| \\    | blackslash     |
+| \n    | newline        |
+| \r    | carriage return|
+| \t    | tab            |
+| \b    | word boundary  |
+| \f    | form feed      |
 ```javascript
 var myStr='FirstLine\n\t\\SecondLine\nThirdLine'; // Change this line
 /*myStr:
