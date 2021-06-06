@@ -105,6 +105,19 @@ myVar++
 //myVar value is incremented by 1 and now has the value 11. It's equivalent of myVar = myVar+1;
 ```
 
+## Decrement a number with javascript
+```javascript
+var myVar=10;
+myVar--;
+//myVar value is decremented by 1 and now has the value 9. It's equivalent of myVar=myVar-1;
+
+## Create a decimal with JavaScript
+```javascript
+//We can store decimal numbers in variables too. Decimal numbers are sometimes referred to as floating point numbers or floats.
+myDecimal=5.7
+```
+
+
 
 
 
